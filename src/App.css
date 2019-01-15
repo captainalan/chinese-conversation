@@ -1,5 +1,30 @@
+.Welcome {
+  display: flex;
+  flex-flow: row;
+  border-style: solid;
+  border-color: #999;
+  margin: 25px;
+  padding: 10px;
+}
+
 .App {
-  text-align: center;
+  text-align: left;
+}
+
+.App h1, h2, h3, h4 {
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  color: black;
+}
+
+.App h1 {
+  color: gold;
+  background: rgb(167, 0, 0);
+  padding: 15px;
+  margin: 0px;
+}
+
+.App body {
+  font-family: 'Noto Sans SC', sans-serif;
 }
 
 .App-logo {
@@ -20,6 +45,79 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.MainContainer {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 15px;
+}
+
+.SiteMap {
+  background: #ccc;
+  display: flex;
+  flex-flow: wrap row;
+  padding: 10px /* Same as Footer */
+}
+
+.SiteMap div {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.SiteMap ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.Header {
+  background: #ccc;
+}
+
+.Header a {
+  color: #333333;
+  font-size: 130%;
+  font-weight: bolder;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.Header a:hover {
+  text-decoration-line: underline;
+}
+.Footer {
+  background: rgb(167, 0, 0);
+  color: gold;
+  padding: 10px /* Same as SiteMap */
+}
+
+.Events {
+  margin: 10px;
+}
+
+.FAQ {
+  margin: 10px;
+}
+
+.News {
+  margin: 10px;
+}
+
+.NewsStory {
+  background: rgb(238, 238, 238);
+  margin: 10px;
+  padding:10px;
+}
+
+.NewsStory p {
+  text-indent: 2em;
+}
+
+.VertTest {
+  writing-mode: vertical-rl;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 200%;
 }
 
 @keyframes App-logo-spin {
