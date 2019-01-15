@@ -1,9 +1,9 @@
 .Welcome {
   display: flex;
-  flex-flow: row;
+  flex-flow: row wrap;
   border-style: solid;
   border-color: #999;
-  margin: 25px;
+  margin: 10px;
   padding: 10px;
 }
 
