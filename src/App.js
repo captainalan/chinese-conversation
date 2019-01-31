@@ -93,7 +93,12 @@ const Welcome = props =>
   <div className="Welcome" id="About"> 
     <div>
       <h2>Welcome/欢迎</h2>
-      <img src={group_pic} alt="Happy People" />
+      <div className="Photo">
+        <img src={group_pic} alt="Happy People" />
+        <p>Conversation!</p>
+        <p>会话！</p>
+      </div>
+
       <p>Are you looking to improve your language skills? Find new friends? Chinese-English Conversation Club holds weekly meetings regularly on <b>Mondays</b> at <b>Generic Community Center</b> from <b>5 PM to 7 PM</b>.</p>
       <p>你在找机会联系说英语吗？你要找新朋友？中英会话时间<b>每周一下午5点至7点在通用社区中心</b>定期举行会议。</p>
       <p></p>

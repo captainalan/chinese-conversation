@@ -133,12 +133,17 @@
   text-indent: 2em;
 }
 
-.Welcome img {
+.Welcome .Photo {
   float: left;
-  height: auto;
-  max-width: 30%;
-  border-radius: 70%;
   padding: 20px;
+  text-align: center;
+}
+
+.Welcome .Photo img {
+  height: auto;
+  border-radius: 70%;
+  margin: 15px;
+  max-width: 300px;
 }
 
 @keyframes App-logo-spin {
