@@ -1,14 +1,15 @@
 {
-  "main.css": "/chinese-conversation/static/css/main.94776a45.chunk.css",
-  "main.js": "/chinese-conversation/static/js/main.634ef587.chunk.js",
-  "main.js.map": "/chinese-conversation/static/js/main.634ef587.chunk.js.map",
-  "static/js/1.fa92c112.chunk.js": "/chinese-conversation/static/js/1.fa92c112.chunk.js",
-  "static/js/1.fa92c112.chunk.js.map": "/chinese-conversation/static/js/1.fa92c112.chunk.js.map",
+  "main.css": "/chinese-conversation/static/css/main.1b8c647a.chunk.css",
+  "main.js": "/chinese-conversation/static/js/main.2ac6faa6.chunk.js",
+  "main.js.map": "/chinese-conversation/static/js/main.2ac6faa6.chunk.js.map",
+  "static/js/1.916b373c.chunk.js": "/chinese-conversation/static/js/1.916b373c.chunk.js",
+  "static/js/1.916b373c.chunk.js.map": "/chinese-conversation/static/js/1.916b373c.chunk.js.map",
   "runtime~main.js": "/chinese-conversation/static/js/runtime~main.c7f55311.js",
   "runtime~main.js.map": "/chinese-conversation/static/js/runtime~main.c7f55311.js.map",
+  "static/media/banner.png": "/chinese-conversation/static/media/banner.87e9c677.png",
   "static/media/group_pic.png": "/chinese-conversation/static/media/group_pic.efafd370.png",
-  "static/css/main.94776a45.chunk.css.map": "/chinese-conversation/static/css/main.94776a45.chunk.css.map",
+  "static/css/main.1b8c647a.chunk.css.map": "/chinese-conversation/static/css/main.1b8c647a.chunk.css.map",
   "index.html": "/chinese-conversation/index.html",
-  "precache-manifest.15aa58607c9716137f242e7b69e0a286.js": "/chinese-conversation/precache-manifest.15aa58607c9716137f242e7b69e0a286.js",
+  "precache-manifest.dc1fcad158b6d1fa95c05736ed84575f.js": "/chinese-conversation/precache-manifest.dc1fcad158b6d1fa95c05736ed84575f.js",
   "service-worker.js": "/chinese-conversation/service-worker.js"
 }

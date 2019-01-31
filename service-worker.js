@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/chinese-conversation/precache-manifest.15aa58607c9716137f242e7b69e0a286.js"
+  "/chinese-conversation/precache-manifest.dc1fcad158b6d1fa95c05736ed84575f.js"
 );
 
 workbox.clientsClaim();
