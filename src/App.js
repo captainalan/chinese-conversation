@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import banner from './banner.png'
 import group_pic from './group_pic.png'
 import './App.css';
 
@@ -83,7 +84,7 @@ const FAQitem = item =>
 
 const Header = props =>
   <div className="Header">
-    <h1>Chinese-English Conversation Club/中英会话时间</h1>
+   <h1><img src={banner} alt="Chinese-English Conversation Club" />Chinese-English Conversation Club</h1>
     <a href="#FAQ">FAQ</a>
     <a href="#Events">Events</a>
     <a href="#Contact">Contact</a>

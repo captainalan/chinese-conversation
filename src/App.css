@@ -22,8 +22,6 @@
 .App h1 {
   color: gold;
   background: rgb(167, 0, 0);
-  padding: 15px;
-  margin: 0px;
 }
 
 .App body {
@@ -80,11 +78,25 @@
 
 .Header {
   background: #ccc;
+  margin: 0px;
+  padding: 0px;
+}
+
+.Header h1 {
+  background: rgb(167, 0, 0);
+  font-family: 'Noto Sans SC', sans-serif;
+  font-weight: bolder;
+  margin: 0px;
+  padding: 0px;
+  font-size: 120%;
+}
+
+.Header img {
+  max-width: 100%;
 }
 
 .Header a {
-  color: #333333;
-  font-size: 130%;
+  color: black;
   font-weight: bolder;
   padding-left: 15px;
   padding-right: 15px;
@@ -143,7 +155,7 @@
   height: auto;
   border-radius: 70%;
   margin: 15px;
-  max-width: 300px;
+  max-width: 250px;
 }
 
 @keyframes App-logo-spin {
