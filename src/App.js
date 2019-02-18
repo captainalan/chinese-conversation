@@ -111,6 +111,7 @@ const News = props =>
     <h2>Recent News/最近的新闻</h2>
     <p>Like what you see here? Subscribe to our Newsletter (TO IMPLEMENT LATER).</p>
     {props.stories ? props.stories.map(NewsStory) : <p>No stories found.</p>}
+    <p>Load more... (TO IMPLEMENT) </p>
   </div>
 
 const NewsStory = story =>
