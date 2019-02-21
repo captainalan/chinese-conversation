@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "2ac6faa6a4e80683a9da",
-    "url": "/chinese-conversation/static/css/main.1b8c647a.chunk.css"
+    "revision": "e2d2136de27ab80ee75a",
+    "url": "/chinese-conversation/static/css/main.95cfe4fb.chunk.css"
   },
   {
-    "revision": "2ac6faa6a4e80683a9da",
-    "url": "/chinese-conversation/static/js/main.2ac6faa6.chunk.js"
+    "revision": "e2d2136de27ab80ee75a",
+    "url": "/chinese-conversation/static/js/main.e2d2136d.chunk.js"
   },
   {
     "revision": "916b373cfef80c85a28b",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/chinese-conversation/static/media/group_pic.efafd370.png"
   },
   {
-    "revision": "0f0485f3f79779d81dba33c35b8c1083",
+    "revision": "a5ffd7ca87cca3c01ce9e8162e328221",
     "url": "/chinese-conversation/index.html"
   }
 ];
