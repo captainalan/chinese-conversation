@@ -6,14 +6,14 @@ See how this project currently looks on
 ## Next Actions
 
 - [x] Add Welcome image
-- [ ] Add a 'Read more' feature to news stories
-      user's request
+- [x] Add a 'Read more' button to news stories user's request
+    - I added a button, but a backend will be needed to do a real fetch
+- [ ] Adjust CSS style on 'Read more' button
 - [ ] Create newsletter subscription form, new window OR pop over 
       normal content
 
 ## Sometime/Maybe
 
-- [ ] Load a small number (3?) of stories up front, fetch more at 
 - [ ] Display message if adblocker detected
 - [ ] Accessibility tags
 

@@ -1,6 +1,6 @@
 .Welcome {
   margin: 10px;
-  padding: 20px;
+  padding: 10px;
 }
 
 .App {
@@ -147,7 +147,6 @@
 
 .Welcome .Photo {
   float: left;
-  padding: 20px;
   text-align: center;
 }
 

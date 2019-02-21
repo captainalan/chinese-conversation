@@ -8,6 +8,7 @@ let news_to_fetch = [
   {title: "Dumplings were made, differences were overcome", body: "CITY/DATE: Chinese-English Conversation Club members hosted a dumpling-making party last Saturday, inviting other local groups including the Plants Rights Advocacy League and The Church of The Supreme Lobster. Modifying traditional Chinese recipes to make vegetable and lobster free dumplings, club members took the inititiative to bridge ideological differences and cultivate community.", image: "NONE"},
   {title: "Students leverage Big Data to interpret Confucius", body: "CITY/DATE: Using Bayesian statistics, anything is possible. While it is more likely than not that Confucius never knew anything about modern approaches to statistical theory, millions of people worldwide continue to revere his teachings.", image: "NONE"},
   {title: "12 Reasons Why You Should Eat Ginseng Roots", body: "CITY/DATE: \"Ginseng can set you free,\" says alternative medicine expert Deepak Zhou, \"It's even better than Tumeric.\"", image: "NONE"},
+  {title: "4 Mastery", body: "4, 'four', for, fore, etc. Can mastering this number mean transcending death?!", image: "NONE"}
 ];
 let faq_to_fetch = [
   {question: "Are beginners welcome?", answer: "Yes."},
@@ -43,6 +44,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
+        <Advertisement />
         <Welcome />
         <div className="MainContainer">
           <FAQ faq={this.state.faq} />
@@ -55,6 +57,11 @@ class App extends Component {
     );
   }
 }
+
+const Advertisement = props =>
+  <div>
+    <p>(Messages from our sponsors) <b>Donate to this cause. Buy this. Sign this petition.</b></p>
+  </div>
 
 const Events = props =>
   <div className="Events" id="Events">
@@ -109,9 +116,9 @@ const Welcome = props =>
 const News = props =>
   <div className="News">
     <h2>Recent News/最近的新闻</h2>
-    <p>Like what you see here? Subscribe to our Newsletter (TO IMPLEMENT LATER).</p>
+    <p>Like what you see here? Subscribe to our <b>Newsletter</b> (TO IMPLEMENT LATER).</p>
     {props.stories ? props.stories.map(NewsStory) : <p>No stories found.</p>}
-    <p>Load more... (TO IMPLEMENT) </p>
+    <button onClick={() => alert("Replace this with a real fetch call later")}>Load more</button>
   </div>
 
 const NewsStory = story =>
