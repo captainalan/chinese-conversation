@@ -8,7 +8,8 @@ See how this project currently looks on
 - [x] Add Welcome image
 - [x] Add a 'Read more' button to news stories user's request
     - I added a button, but a backend will be needed to do a real fetch
-- [ ] Adjust CSS style on 'Read more' button
+- [x] Adjust CSS style on 'Read more' button
+    - It looks better as a plain link
 - [ ] Create newsletter subscription form, new window OR pop over 
       normal content
 
@@ -20,3 +21,7 @@ See how this project currently looks on
 <hr>
  
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Photo Credits etc.
+
+- [mahjong](https://unsplash.com/photos/rMm0dChKUaI) by Ellicia

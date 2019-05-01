@@ -60,7 +60,7 @@ class App extends Component {
 
 const Advertisement = props =>
   <div>
-    <p>(Messages from our sponsors) <b>Donate to this cause. Buy this. Sign this petition.</b></p>
+    <p>(Advertising Space) <b>Donate to this cause. Buy this. Sign this petition.</b></p>
   </div>
 
 const Events = props =>
@@ -72,12 +72,22 @@ const Events = props =>
         props.events.map( (event) => <li>{event.name} ({event.date})</li> ) 
         : "No events found!"}
     </ul>
+
+    <figure>
+      <img src="https://images.unsplash.com/photo-1518245078939-75312b6f72c6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1297&q=80" alt="Games" width="400px" />
+      <figcaption>Fun and Games</figcaption>
+    </figure>
   </div>
 
 const FAQ = props =>
   <div className="FAQ" id="FAQ">
     <h2>FAQ/常问问题</h2>
     {props.faq ? props.faq.map(FAQitem) : <p>No Q&As found.</p>}
+     <div className="Photo">
+      <img src={group_pic} alt="Happy People" />
+      <p>Conversation!</p>
+      <p>会话！</p>
+    </div>
   </div>
 
 const FAQitem = item =>
@@ -101,11 +111,7 @@ const Welcome = props =>
   <div className="Welcome" id="About"> 
     <div>
       <h2>Welcome/欢迎</h2>
-      <div className="Photo">
-        <img src={group_pic} alt="Happy People" />
-        <p>Conversation!</p>
-        <p>会话！</p>
-      </div>
+      
 
       <p>Are you looking to improve your language skills? Find new friends? Chinese-English Conversation Club holds weekly meetings regularly on <b>Mondays</b> at <b>Generic Community Center</b> from <b>5 PM to 7 PM</b>.</p>
       <p>你在找机会联系说英语吗？你要找新朋友？中英会话时间<b>每周一下午5点至7点在通用社区中心</b>定期举行会议。</p>
@@ -118,7 +124,7 @@ const News = props =>
     <h2>Recent News/最近的新闻</h2>
     <p>Like what you see here? Subscribe to our <b>Newsletter</b> (TO IMPLEMENT LATER).</p>
     {props.stories ? props.stories.map(NewsStory) : <p>No stories found.</p>}
-    <button onClick={() => alert("Replace this with a real fetch call later")}>Load more</button>
+    Load <a href="#">more stories</a>!
   </div>
 
 const NewsStory = story =>

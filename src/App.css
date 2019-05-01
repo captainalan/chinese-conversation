@@ -97,9 +97,10 @@
 
 .Header a {
   color: black;
-  font-weight: bolder;
-  padding-left: 15px;
-  padding-right: 15px;
+  font-size: 150%;
+  font-weight: normal;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .Header a:hover {
@@ -120,14 +121,17 @@
 }
 
 .Events {
+  flex-grow: 1;
   margin: 10px;
 }
 
 .FAQ {
+  flex-grow: 1;
   margin: 10px;
 }
 
 .News {
+  flex-grow: 1;
   margin: 10px;
 }
 
@@ -145,12 +149,12 @@
   text-indent: 2em;
 }
 
-.Welcome .Photo {
+.Photo {
   float: left;
   text-align: center;
 }
 
-.Welcome .Photo img {
+.Photo img {
   height: auto;
   border-radius: 70%;
   margin: 15px;
