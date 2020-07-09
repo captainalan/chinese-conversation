@@ -1,15 +1,24 @@
 {
-  "main.css": "/chinese-conversation/static/css/main.be65ec0b.chunk.css",
-  "main.js": "/chinese-conversation/static/js/main.c4ab248a.chunk.js",
-  "main.js.map": "/chinese-conversation/static/js/main.c4ab248a.chunk.js.map",
-  "static/js/1.916b373c.chunk.js": "/chinese-conversation/static/js/1.916b373c.chunk.js",
-  "static/js/1.916b373c.chunk.js.map": "/chinese-conversation/static/js/1.916b373c.chunk.js.map",
-  "runtime~main.js": "/chinese-conversation/static/js/runtime~main.c7f55311.js",
-  "runtime~main.js.map": "/chinese-conversation/static/js/runtime~main.c7f55311.js.map",
-  "static/css/main.be65ec0b.chunk.css.map": "/chinese-conversation/static/css/main.be65ec0b.chunk.css.map",
-  "static/media/banner.png": "/chinese-conversation/static/media/banner.87e9c677.png",
-  "static/media/group_pic.png": "/chinese-conversation/static/media/group_pic.efafd370.png",
-  "index.html": "/chinese-conversation/index.html",
-  "precache-manifest.a4ad27890e339e23826ec5051bcea419.js": "/chinese-conversation/precache-manifest.a4ad27890e339e23826ec5051bcea419.js",
-  "service-worker.js": "/chinese-conversation/service-worker.js"
+  "files": {
+    "main.css": "/chinese-conversation/static/css/main.2534917c.chunk.css",
+    "main.js": "/chinese-conversation/static/js/main.dbc34b46.chunk.js",
+    "main.js.map": "/chinese-conversation/static/js/main.dbc34b46.chunk.js.map",
+    "runtime-main.js": "/chinese-conversation/static/js/runtime-main.4dbc4f70.js",
+    "runtime-main.js.map": "/chinese-conversation/static/js/runtime-main.4dbc4f70.js.map",
+    "static/js/2.7198b8f8.chunk.js": "/chinese-conversation/static/js/2.7198b8f8.chunk.js",
+    "static/js/2.7198b8f8.chunk.js.map": "/chinese-conversation/static/js/2.7198b8f8.chunk.js.map",
+    "index.html": "/chinese-conversation/index.html",
+    "precache-manifest.71762cf43e93e3df09ca2bb03f7e1e33.js": "/chinese-conversation/precache-manifest.71762cf43e93e3df09ca2bb03f7e1e33.js",
+    "service-worker.js": "/chinese-conversation/service-worker.js",
+    "static/css/main.2534917c.chunk.css.map": "/chinese-conversation/static/css/main.2534917c.chunk.css.map",
+    "static/js/2.7198b8f8.chunk.js.LICENSE.txt": "/chinese-conversation/static/js/2.7198b8f8.chunk.js.LICENSE.txt",
+    "static/media/banner.png": "/chinese-conversation/static/media/banner.87e9c677.png",
+    "static/media/group_pic.png": "/chinese-conversation/static/media/group_pic.efafd370.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4dbc4f70.js",
+    "static/js/2.7198b8f8.chunk.js",
+    "static/css/main.2534917c.chunk.css",
+    "static/js/main.dbc34b46.chunk.js"
+  ]
 }
